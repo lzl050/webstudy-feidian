@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:#2c383e url(bgindex.jpg) repeat-x;
+    width: 867px;
+    margin: 0 auto; 
+    font-size: 12px;
+    color: #333;
+}
+ul{
+    list-style-type: none;
+    line-height: 51px;
+}
+img{
+    border: none;
+}
+#header{
+    width: 867px;
+    height: 323px;
+    background: blue;
+}
+#header embed{
+    display:block ;
+    height: 323px;
+    width: 867px;
+}
+#nav{
+    width: 867px;
+    height: 51px;
+    background:url(1.png);
+}
+#nav ul{
+    height: 51px;
+    line-height: 51px;
+}
+#nav ul li{
+    text-align: center;
+    height: 51px;
+    width: 124px;
+    background: url(2.png)no-repeat right center;
+    float: left;
+}
+#nav ul li.end{
+    width: 123px;
+    background: none;
+}
+#nav ul li a{
+    display: inline-block;
+    width: 124px;
+    height: 51px;
+    color: #fff;
+    text-decoration: none;
+}
+#nav ul li a:hover{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: yellow;
+
+}
+#nav ul li.end a{
+    width: 123px;
+}
+#sidebar{
+    width: 251px;
+    height: 490px;
+    background:url(8.png)#fff no-repeat right 55%;
+    float: left;
+}
+#sidebar h1{
+    background:url(3.png) no-repeat;
+    width: 123px;
+    height: 35px;
+    font-size: 100%;
+    text-indent: -9999px;
+    margin-top: 10px;
+    margin-left: 20px;
+    
+}
+#sidebar img{
+    display: block;
+}
+#sidebar ul{
+
+    line-height: 180%;
+    text-indent: 20px;
+
+}
+#sidebar ul li a{
+    display: inline-block;
+    width: 120px;
+    height: 15px;
+    background: url(5.png)no-repeat left center;
+    text-indent:-9999px ;
+}
+#sidebar ul li.line{
+    border: 1px solid#999;
+    margin-left: 20px;
+    margin-right: 50px;
+    margin-bottom: 5px;
+    
+}
+#news{
+    width: 313px;
+    height: 300px;
+    background: #fff;
+    float: left;
+}
+#news h1{
+    background:url(6.png) no-repeat;
+    width: 150px;
+    height: 50px;
+    font-size: 100%;
+    text-indent: -9999px;  
+}
+#news ul{
+    line-height: 160%;
+    margin-top: 10px;
+    margin-left: 20px;
+    background: url(8.png) repeat-y top right;
+}
+#news ul li{
+    padding-left:25px ;
+}
+#news ul li.date{
+    color:orange;
+    font-weight: bold;
+    background: url(7.png) no-repeat left center;
+}
+#news ul li a{
+    display: inline-block;
+    width: 120px;
+    height: 15px;
+    background: url(5.png)no-repeat left center;
+    text-indent:-9999px ;
+}
+#about{
+    width: 303px;
+    height: 300px;
+    background: #fff;
+    float: left;
+}
+#about h1{
+    background:url(9.png) no-repeat;
+    width: 220px;
+    height: 70px;
+    font-size: 100%;
+    text-indent: -9999px;  
+}
+#about p{
+    width: 280px;
+    margin-left: 20px;
+    
+}
+#about img{
+    display: block;
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+#about  a{
+    display: inline-block;
+    width: 120px;
+    height: 15px;
+    background: url(5.png)no-repeat left center;
+    text-indent:-9999px ;
+
+}
+#estate{
+    width: 616px;
+    height: 190px;
+    background: #fff;
+    float: left;
+}
+#estate #escon{
+    width: 530px;
+    height: 189px;
+    background: #ffffff;
+    margin-left: 33px;
+    border-top: 1px solid#ccc;
+
+}
+#estate #escon img{
+    display: block;
+    float: left;
+    padding-top: 15px;
+}
+#estate #escon dl{
+    float: left;
+    width: 285px;
+}
+#estate #escon dl dt{
+    background:url(estate1.gif) no-repeat;
+    width: 117px;
+    height: 30px;
+    font-size: 100%;
+    text-indent: -9999px; 
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+#estate #escon dl dd{
+    padding-left: 20px;
+    padding-right: 0;
+}
+#estate #escon dl dd a{
+    display: inline-block;
+    width: 65px;
+    height: 11px;
+    background: url(5.png)no-repeat left center;
+    text-indent:-9999px ;
+    margin-top: 8px;
+
+}
+#footer{
+    clear: both;
+    width: 867px;
+    height: 110px;
+    background:url(footer1.gif);
+}
+footer img{
+    padding-top:10px ;
+}
+footer p{
+    color: #ccc;
+    text-align: right;
+    font-family: Tahoma;
+    font-size: 10px;
+    padding-right: 10px;
+    padding-top: 10px ;
+}
